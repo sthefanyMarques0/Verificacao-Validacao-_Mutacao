@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+<body>
+
+
+<h1>Senha.java</h1>
+
+<table class="src">
+
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@fe08eaf_1'/>
+1
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@fe08eaf_1'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>package com.mutacao.util;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@fe08eaf_2'/>
+2
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@fe08eaf_2'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@fe08eaf_3'/>
+3
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@fe08eaf_3'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>/**</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@fe08eaf_4'/>
+4
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@fe08eaf_4'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''> * Valida&#231;&#227;o e for&#231;a de senhas.</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@fe08eaf_5'/>
+5
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@fe08eaf_5'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''> */</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@fe08eaf_6'/>
+6
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@fe08eaf_6'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>public class Senha {</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@fe08eaf_7'/>
+7
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@fe08eaf_7'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@fe08eaf_8'/>
+8
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@fe08eaf_8'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>    public enum Forca { FRACA, MEDIA, FORTE }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@fe08eaf_9'/>
+9
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@fe08eaf_9'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@fe08eaf_10'/>
+10
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@fe08eaf_10'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    /** M&#237;nimo 8 caracteres, ao menos 1 d&#237;gito e 1 letra. */</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@fe08eaf_11'/>
+11
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@fe08eaf_11'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    public boolean ehValida(String senha) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@fe08eaf_12'/>
+12
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@fe08eaf_12'>4</a>
+<span>
+
+1. ehValida : removed conditional - replaced equality check with false &rarr; KILLED<br/>
+
+2. ehValida : replaced boolean return with true for com/mutacao/util/Senha::ehValida &rarr; KILLED<br/>
+
+3. ehValida : changed conditional boundary &rarr; KILLED<br/>
+
+4. ehValida : removed conditional - replaced comparison check with false &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        if (senha == null || senha.length() &#60; 8) return false;</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@fe08eaf_13'/>
+13
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@fe08eaf_13'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>        boolean temDigito = false;</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@fe08eaf_14'/>
+14
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@fe08eaf_14'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>        boolean temLetra = false;</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@fe08eaf_15'/>
+15
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@fe08eaf_15'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>        for (char c : senha.toCharArray()) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@fe08eaf_16'/>
+16
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@fe08eaf_16'>1</a>
+<span>
+
+1. ehValida : removed conditional - replaced equality check with false &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>            if (Character.isDigit(c))  temDigito = true;</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@fe08eaf_17'/>
+17
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@fe08eaf_17'>1</a>
+<span>
+
+1. ehValida : removed conditional - replaced equality check with false &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>            if (Character.isLetter(c)) temLetra  = true;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@fe08eaf_18'/>
+18
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@fe08eaf_18'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>        }</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@fe08eaf_19'/>
+19
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@fe08eaf_19'>3</a>
+<span>
+
+1. ehValida : removed conditional - replaced equality check with false &rarr; KILLED<br/>
+
+2. ehValida : removed conditional - replaced equality check with false &rarr; KILLED<br/>
+
+3. ehValida : replaced boolean return with true for com/mutacao/util/Senha::ehValida &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        return temDigito &#38;&#38; temLetra;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@fe08eaf_20'/>
+20
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@fe08eaf_20'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@fe08eaf_21'/>
+21
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@fe08eaf_21'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@fe08eaf_22'/>
+22
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@fe08eaf_22'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    public Forca calcularForca(String senha) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@fe08eaf_23'/>
+23
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@fe08eaf_23'>2</a>
+<span>
+
+1. calcularForca : replaced return value with null for com/mutacao/util/Senha::calcularForca &rarr; KILLED<br/>
+
+2. calcularForca : removed conditional - replaced equality check with false &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        if (!ehValida(senha)) return Forca.FRACA;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@fe08eaf_24'/>
+24
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@fe08eaf_24'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@fe08eaf_25'/>
+25
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@fe08eaf_25'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>        boolean temMaiuscula  = senha.chars().anyMatch(Character::isUpperCase);</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@fe08eaf_26'/>
+26
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@fe08eaf_26'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>        boolean temMinuscula  = senha.chars().anyMatch(Character::isLowerCase);</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@fe08eaf_27'/>
+27
+</td>
+<td class='survived'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@fe08eaf_27'>2</a>
+<span>
+
+1. lambda$calcularForca$0 : replaced boolean return with true for com/mutacao/util/Senha::lambda$calcularForca$0 &rarr; SURVIVED<br/>
+
+2. lambda$calcularForca$0 : removed conditional - replaced equality check with false &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='survived'>        boolean temEspecial   = senha.chars().anyMatch(c -&#62; !Character.isLetterOrDigit(c));</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@fe08eaf_28'/>
+28
+</td>
+<td class='survived'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@fe08eaf_28'>2</a>
+<span>
+
+1. calcularForca : removed conditional - replaced comparison check with false &rarr; SURVIVED<br/>
+
+2. calcularForca : changed conditional boundary &rarr; SURVIVED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='survived'>        boolean tamanhoGrande = senha.length() &#62;= 12;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@fe08eaf_29'/>
+29
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@fe08eaf_29'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@fe08eaf_30'/>
+30
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@fe08eaf_30'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>        int pontos = 0;</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@fe08eaf_31'/>
+31
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@fe08eaf_31'>2</a>
+<span>
+
+1. calcularForca : Changed increment from 1 to -1 &rarr; KILLED<br/>
+
+2. calcularForca : removed conditional - replaced equality check with false &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        if (temMaiuscula)  pontos++;</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@fe08eaf_32'/>
+32
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@fe08eaf_32'>2</a>
+<span>
+
+1. calcularForca : Changed increment from 1 to -1 &rarr; KILLED<br/>
+
+2. calcularForca : removed conditional - replaced equality check with false &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        if (temMinuscula)  pontos++;</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@fe08eaf_33'/>
+33
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@fe08eaf_33'>2</a>
+<span>
+
+1. calcularForca : Changed increment from 1 to -1 &rarr; KILLED<br/>
+
+2. calcularForca : removed conditional - replaced equality check with false &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        if (temEspecial)   pontos++;</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@fe08eaf_34'/>
+34
+</td>
+<td class='survived'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@fe08eaf_34'>2</a>
+<span>
+
+1. calcularForca : removed conditional - replaced equality check with false &rarr; SURVIVED<br/>
+
+2. calcularForca : Changed increment from 1 to -1 &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='survived'>        if (tamanhoGrande) pontos++;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@fe08eaf_35'/>
+35
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@fe08eaf_35'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@fe08eaf_36'/>
+36
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@fe08eaf_36'>3</a>
+<span>
+
+1. calcularForca : removed conditional - replaced comparison check with false &rarr; KILLED<br/>
+
+2. calcularForca : replaced return value with null for com/mutacao/util/Senha::calcularForca &rarr; KILLED<br/>
+
+3. calcularForca : changed conditional boundary &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        if (pontos &#62;= 3) return Forca.FORTE;</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@fe08eaf_37'/>
+37
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@fe08eaf_37'>3</a>
+<span>
+
+1. calcularForca : changed conditional boundary &rarr; KILLED<br/>
+
+2. calcularForca : replaced return value with null for com/mutacao/util/Senha::calcularForca &rarr; KILLED<br/>
+
+3. calcularForca : removed conditional - replaced comparison check with false &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        if (pontos &#62;= 1) return Forca.MEDIA;</span></pre></td></tr>
+
+
+<tr>
+<td class='uncovered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@fe08eaf_38'/>
+38
+</td>
+<td class='survived'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@fe08eaf_38'>1</a>
+<span>
+
+1. calcularForca : replaced return value with null for com/mutacao/util/Senha::calcularForca &rarr; NO_COVERAGE<br/>
+
+</span>
+</span>
+</td>
+<td class='uncovered'><pre><span  class='survived'>        return Forca.FRACA;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@fe08eaf_39'/>
+39
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@fe08eaf_39'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@fe08eaf_40'/>
+40
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@fe08eaf_40'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>}</span></pre></td></tr>
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@fe08eaf_12'>12</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@fe08eaf_12'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>ehValida<br/><b>Killed by : </b>com.mutacao.util.SenhaValidacaoTest.[engine:junit-jupiter]/[class:com.mutacao.util.SenhaValidacaoTest]/[test-template:testSenhasValidas(java.lang.String)]/[test-template-invocation:#2]</span></span> removed conditional - replaced equality check with false &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>ehValida<br/><b>Killed by : </b>com.mutacao.util.SenhaValidacaoTest.[engine:junit-jupiter]/[class:com.mutacao.util.SenhaValidacaoTest]/[method:testForcaFraca()]</span></span> replaced boolean return with true for com/mutacao/util/Senha::ehValida &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>ehValida<br/><b>Killed by : </b>com.mutacao.util.SenhaValidacaoTest.[engine:junit-jupiter]/[class:com.mutacao.util.SenhaValidacaoTest]/[test-template:testSenhasValidas(java.lang.String)]/[test-template-invocation:#2]</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>ehValida<br/><b>Killed by : </b>com.mutacao.util.SenhaValidacaoTest.[engine:junit-jupiter]/[class:com.mutacao.util.SenhaValidacaoTest]/[method:testCurtaInvalida()]</span></span> removed conditional - replaced comparison check with false &rarr; KILLED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@fe08eaf_16'>16</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@fe08eaf_16'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>ehValida<br/><b>Killed by : </b>com.mutacao.util.SenhaValidacaoTest.[engine:junit-jupiter]/[class:com.mutacao.util.SenhaValidacaoTest]/[test-template:testSenhasValidas(java.lang.String)]/[test-template-invocation:#2]</span></span> removed conditional - replaced equality check with false &rarr; KILLED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@fe08eaf_17'>17</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@fe08eaf_17'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>ehValida<br/><b>Killed by : </b>com.mutacao.util.SenhaValidacaoTest.[engine:junit-jupiter]/[class:com.mutacao.util.SenhaValidacaoTest]/[test-template:testSenhasValidas(java.lang.String)]/[test-template-invocation:#2]</span></span> removed conditional - replaced equality check with false &rarr; KILLED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@fe08eaf_19'>19</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@fe08eaf_19'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>ehValida<br/><b>Killed by : </b>com.mutacao.util.SenhaValidacaoTest.[engine:junit-jupiter]/[class:com.mutacao.util.SenhaValidacaoTest]/[test-template:testSenhasValidas(java.lang.String)]/[test-template-invocation:#2]</span></span> removed conditional - replaced equality check with false &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>ehValida<br/><b>Killed by : </b>com.mutacao.util.SenhaValidacaoTest.[engine:junit-jupiter]/[class:com.mutacao.util.SenhaValidacaoTest]/[test-template:testSenhasValidas(java.lang.String)]/[test-template-invocation:#2]</span></span> removed conditional - replaced equality check with false &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>ehValida<br/><b>Killed by : </b>com.mutacao.util.SenhaValidacaoTest.[engine:junit-jupiter]/[class:com.mutacao.util.SenhaValidacaoTest]/[method:testSemLetraInvalida()]</span></span> replaced boolean return with true for com/mutacao/util/Senha::ehValida &rarr; KILLED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@fe08eaf_23'>23</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@fe08eaf_23'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>calcularForca<br/><b>Killed by : </b>com.mutacao.util.SenhaValidacaoTest.[engine:junit-jupiter]/[class:com.mutacao.util.SenhaValidacaoTest]/[method:testForcaFraca()]</span></span> replaced return value with null for com/mutacao/util/Senha::calcularForca &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>calcularForca<br/><b>Killed by : </b>com.mutacao.util.SenhaValidacaoTest.[engine:junit-jupiter]/[class:com.mutacao.util.SenhaValidacaoTest]/[method:testForcaFraca()]</span></span> removed conditional - replaced equality check with false &rarr; KILLED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@fe08eaf_27'>27</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@fe08eaf_27'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>lambda$calcularForca$0<br/><b>Killed by : </b>none</span></span> replaced boolean return with true for com/mutacao/util/Senha::lambda$calcularForca$0 &rarr; SURVIVED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>lambda$calcularForca$0<br/><b>Killed by : </b>com.mutacao.util.SenhaValidacaoTest.[engine:junit-jupiter]/[class:com.mutacao.util.SenhaValidacaoTest]/[method:testForcaForte()]</span></span> removed conditional - replaced equality check with false &rarr; KILLED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@fe08eaf_28'>28</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@fe08eaf_28'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>calcularForca<br/><b>Killed by : </b>none</span></span> removed conditional - replaced comparison check with false &rarr; SURVIVED</p> <p class='SURVIVED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>calcularForca<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; SURVIVED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@fe08eaf_31'>31</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@fe08eaf_31'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>calcularForca<br/><b>Killed by : </b>com.mutacao.util.SenhaValidacaoTest.[engine:junit-jupiter]/[class:com.mutacao.util.SenhaValidacaoTest]/[method:testForcaForteLonga()]</span></span> Changed increment from 1 to -1 &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>calcularForca<br/><b>Killed by : </b>com.mutacao.util.SenhaValidacaoTest.[engine:junit-jupiter]/[class:com.mutacao.util.SenhaValidacaoTest]/[method:testForcaForte()]</span></span> removed conditional - replaced equality check with false &rarr; KILLED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@fe08eaf_32'>32</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@fe08eaf_32'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>calcularForca<br/><b>Killed by : </b>com.mutacao.util.SenhaValidacaoTest.[engine:junit-jupiter]/[class:com.mutacao.util.SenhaValidacaoTest]/[method:testForcaMedia()]</span></span> Changed increment from 1 to -1 &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>calcularForca<br/><b>Killed by : </b>com.mutacao.util.SenhaValidacaoTest.[engine:junit-jupiter]/[class:com.mutacao.util.SenhaValidacaoTest]/[method:testForcaMedia()]</span></span> removed conditional - replaced equality check with false &rarr; KILLED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@fe08eaf_33'>33</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@fe08eaf_33'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>calcularForca<br/><b>Killed by : </b>com.mutacao.util.SenhaValidacaoTest.[engine:junit-jupiter]/[class:com.mutacao.util.SenhaValidacaoTest]/[method:testForcaForteLonga()]</span></span> Changed increment from 1 to -1 &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>calcularForca<br/><b>Killed by : </b>com.mutacao.util.SenhaValidacaoTest.[engine:junit-jupiter]/[class:com.mutacao.util.SenhaValidacaoTest]/[method:testForcaForte()]</span></span> removed conditional - replaced equality check with false &rarr; KILLED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@fe08eaf_34'>34</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@fe08eaf_34'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>calcularForca<br/><b>Killed by : </b>com.mutacao.util.SenhaValidacaoTest.[engine:junit-jupiter]/[class:com.mutacao.util.SenhaValidacaoTest]/[method:testForcaForteLonga()]</span></span> Changed increment from 1 to -1 &rarr; KILLED</p> <p class='SURVIVED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>calcularForca<br/><b>Killed by : </b>none</span></span> removed conditional - replaced equality check with false &rarr; SURVIVED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@fe08eaf_36'>36</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@fe08eaf_36'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>calcularForca<br/><b>Killed by : </b>com.mutacao.util.SenhaValidacaoTest.[engine:junit-jupiter]/[class:com.mutacao.util.SenhaValidacaoTest]/[method:testForcaForteLonga()]</span></span> removed conditional - replaced comparison check with false &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>calcularForca<br/><b>Killed by : </b>com.mutacao.util.SenhaValidacaoTest.[engine:junit-jupiter]/[class:com.mutacao.util.SenhaValidacaoTest]/[method:testForcaForteLonga()]</span></span> replaced return value with null for com/mutacao/util/Senha::calcularForca &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>calcularForca<br/><b>Killed by : </b>com.mutacao.util.SenhaValidacaoTest.[engine:junit-jupiter]/[class:com.mutacao.util.SenhaValidacaoTest]/[method:testForcaForte()]</span></span> changed conditional boundary &rarr; KILLED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@fe08eaf_37'>37</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@fe08eaf_37'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>calcularForca<br/><b>Killed by : </b>com.mutacao.util.SenhaValidacaoTest.[engine:junit-jupiter]/[class:com.mutacao.util.SenhaValidacaoTest]/[method:testForcaMedia()]</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>calcularForca<br/><b>Killed by : </b>com.mutacao.util.SenhaValidacaoTest.[engine:junit-jupiter]/[class:com.mutacao.util.SenhaValidacaoTest]/[method:testForcaMedia()]</span></span> replaced return value with null for com/mutacao/util/Senha::calcularForca &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>calcularForca<br/><b>Killed by : </b>com.mutacao.util.SenhaValidacaoTest.[engine:junit-jupiter]/[class:com.mutacao.util.SenhaValidacaoTest]/[method:testForcaMedia()]</span></span> removed conditional - replaced comparison check with false &rarr; KILLED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@fe08eaf_38'>38</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@fe08eaf_38'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>calcularForca<br/><b>Killed by : </b>none</span></span> replaced return value with null for com/mutacao/util/Senha::calcularForca &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+
+<li class='mutator'>CONDITIONALS_BOUNDARY</li>
+
+<li class='mutator'>EMPTY_RETURNS</li>
+
+<li class='mutator'>FALSE_RETURNS</li>
+
+<li class='mutator'>INCREMENTS</li>
+
+<li class='mutator'>INVERT_NEGS</li>
+
+<li class='mutator'>MATH</li>
+
+<li class='mutator'>NULL_RETURNS</li>
+
+<li class='mutator'>PRIMITIVE_RETURNS</li>
+
+<li class='mutator'>REMOVE_CONDITIONALS_EQUAL_ELSE</li>
+
+<li class='mutator'>REMOVE_CONDITIONALS_ORDER_ELSE</li>
+
+<li class='mutator'>TRUE_RETURNS</li>
+
+<li class='mutator'>VOID_METHOD_CALLS</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>com.mutacao.util.SenhaValidacaoTest.[engine:junit-jupiter]/[class:com.mutacao.util.SenhaValidacaoTest]/[method:testForcaMedia()] (0 ms)</li><li>com.mutacao.util.SenhaValidacaoTest.[engine:junit-jupiter]/[class:com.mutacao.util.SenhaValidacaoTest]/[method:testForcaFraca()] (0 ms)</li><li>com.mutacao.util.SenhaValidacaoTest.[engine:junit-jupiter]/[class:com.mutacao.util.SenhaValidacaoTest]/[method:testNulaInvalida()] (0 ms)</li><li>com.mutacao.util.SenhaValidacaoTest.[engine:junit-jupiter]/[class:com.mutacao.util.SenhaValidacaoTest]/[method:testSemLetraInvalida()] (0 ms)</li><li>com.mutacao.util.SenhaValidacaoTest.[engine:junit-jupiter]/[class:com.mutacao.util.SenhaValidacaoTest]/[method:testCurtaInvalida()] (1 ms)</li><li>com.mutacao.util.SenhaValidacaoTest.[engine:junit-jupiter]/[class:com.mutacao.util.SenhaValidacaoTest]/[test-template:testSenhasValidas(java.lang.String)]/[test-template-invocation:#2] (0 ms)</li><li>com.mutacao.util.SenhaValidacaoTest.[engine:junit-jupiter]/[class:com.mutacao.util.SenhaValidacaoTest]/[test-template:testSenhasValidas(java.lang.String)]/[test-template-invocation:#4] (0 ms)</li><li>com.mutacao.util.SenhaValidacaoTest.[engine:junit-jupiter]/[class:com.mutacao.util.SenhaValidacaoTest]/[method:testSemDigitoInvalida()] (0 ms)</li><li>com.mutacao.util.SenhaValidacaoTest.[engine:junit-jupiter]/[class:com.mutacao.util.SenhaValidacaoTest]/[method:testExatamente8Valida()] (0 ms)</li><li>com.mutacao.util.SenhaValidacaoTest.[engine:junit-jupiter]/[class:com.mutacao.util.SenhaValidacaoTest]/[test-template:testSenhasValidas(java.lang.String)]/[test-template-invocation:#3] (1 ms)</li><li>com.mutacao.util.SenhaValidacaoTest.[engine:junit-jupiter]/[class:com.mutacao.util.SenhaValidacaoTest]/[test-template:testSenhasValidas(java.lang.String)]/[test-template-invocation:#1] (1 ms)</li><li>com.mutacao.util.SenhaValidacaoTest.[engine:junit-jupiter]/[class:com.mutacao.util.SenhaValidacaoTest]/[method:testForcaForteLonga()] (0 ms)</li><li>com.mutacao.util.SenhaValidacaoTest.[engine:junit-jupiter]/[class:com.mutacao.util.SenhaValidacaoTest]/[method:testForcaForte()] (3 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='https://pitest.org'>PIT</a> 1.15.3
+
+</body>
+</html>

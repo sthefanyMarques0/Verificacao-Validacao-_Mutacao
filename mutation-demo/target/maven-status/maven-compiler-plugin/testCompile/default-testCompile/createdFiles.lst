@@ -1,0 +1,9 @@
+com\mutacao\service\NotaFiscalImpostosTest.class
+com\mutacao\util\SenhaValidacaoTest.class
+com\mutacao\util\TrianguloClassificacaoTest.class
+com\mutacao\util\CalculadoraOperacoesBasicasTest.class
+com\mutacao\model\ContaTest.class
+com\mutacao\model\ProdutoTest.class
+com\mutacao\service\NotaFiscalMultaTest.class
+com\mutacao\util\CalculadoraAvancadaTest.class
+com\mutacao\service\CarrinhoServiceTest.class
