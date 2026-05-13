@@ -7,12 +7,7 @@ import org.junit.jupiter.api.Test;
 import static com.mutacao.util.Triangulo.Tipo.*;
 import static org.junit.jupiter.api.Assertions.*;
 
-/**
- * Teste 3 – Classificação de triângulos.
- *
- * Mutantes esperados: inversão de condições de igualdade (== → !=),
- * alteração de operadores lógicos (&& → ||) e troca de tipos retornados.
- */
+
 @DisplayName("Triângulo – Classificação")
 class TrianguloClassificacaoTest {
 
@@ -80,7 +75,6 @@ class TrianguloClassificacaoTest {
     @Test
     @DisplayName("Inválido quando dois lados somam exatamente o terceiro")
     void testInvalidoSomaExata() {
-        // a + b == c  →  não satisfaz desigualdade estrita
         assertEquals(INVALIDO, triangulo.classificar(3, 4, 7));
     }
 }
