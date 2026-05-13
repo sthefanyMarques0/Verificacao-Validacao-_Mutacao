@@ -1,13 +1,11 @@
 package com.mutacao.service;
 
-/**
- * Cálculo de nota fiscal com impostos.
- */
+
 public class NotaFiscalService {
 
-    private static final double ALIQUOTA_ISS  = 0.05;  // 5 %
-    private static final double ALIQUOTA_ICMS = 0.12;  // 12 %
-    private static final double ALIQUOTA_IPI  = 0.10;  // 10 %
+    private static final double ALIQUOTA_ISS  = 0.05;  
+    private static final double ALIQUOTA_ICMS = 0.12;  
+    private static final double ALIQUOTA_IPI  = 0.10;  
 
     public enum TipoServico { SERVICO, PRODUTO, PRODUTO_COM_IPI }
 
