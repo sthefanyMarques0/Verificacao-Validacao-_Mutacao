@@ -36,7 +36,7 @@ class SenhaValidacaoTest {
     @Test
     @DisplayName("Senha com exatamente 8 caracteres, letra e dígito é válida")
     void testExatamente8Valida() {
-        assertTrue(senha.ehValida("Abcde1fg")); // 8 chars, tem letra e dígito
+        assertTrue(senha.ehValida("Abcde1fg")); 
     }
 
     @Test
