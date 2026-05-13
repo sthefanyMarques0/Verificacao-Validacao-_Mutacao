@@ -7,12 +7,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-/**
- * Teste 8 – Serviço de Carrinho: itens, subtotal, desconto e total.
- *
- * Mutantes esperados: troca de operador de soma no subtotal (sum → 0),
- * alteração da fórmula de desconto (/ 100 → * 100), inversão de isEmpty.
- */
+
 @DisplayName("CarrinhoService – Operações")
 class CarrinhoServiceTest {
 
