@@ -9,13 +9,7 @@ import org.junit.jupiter.params.provider.CsvSource;
 import static com.mutacao.service.NotaFiscalService.TipoServico.*;
 import static org.junit.jupiter.api.Assertions.*;
 
-/**
- * Teste 9 – Cálculo de impostos e total da Nota Fiscal.
- *
- * Mutantes esperados: substituição de alíquotas (0.05 → 0.0),
- * inversão do limiar de retenção (> 5000 → >= 5000),
- * troca de operador na fórmula de juros/multa.
- */
+
 @DisplayName("NotaFiscalService – Impostos")
 class NotaFiscalImpostosTest {
 
