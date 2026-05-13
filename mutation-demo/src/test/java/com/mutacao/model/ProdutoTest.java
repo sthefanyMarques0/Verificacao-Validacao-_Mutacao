@@ -6,13 +6,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-/**
- * Teste 6 – Modelo Produto: criação, estoque e valor.
- *
- * Mutantes esperados: inversão de condição (< 0 → <= 0), alteração do
- * operador de adição/subtração de estoque, substituição do multiplicador
- * em valorTotalEmEstoque.
- */
+
 @DisplayName("Produto – Modelo")
 class ProdutoTest {
 
