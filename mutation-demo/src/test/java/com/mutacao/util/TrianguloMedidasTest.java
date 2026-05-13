@@ -6,12 +6,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-/**
- * Teste 4 - Perimetro e area do Triangulo.
- *
- * Mutantes esperados: substituicao de operador (+) no perimetro,
- * alteracao de constante divisor (2.0) e da formula de Heron.
- */
+
 @DisplayName("Triangulo - Medidas")
 class TrianguloMedidasTest {
 
@@ -44,14 +39,12 @@ class TrianguloMedidasTest {
     @Test
     @DisplayName("Area do triangulo retangulo 3-4-5")
     void testAreaRetangulo345() {
-        // Area = 6.0  (base * altura / 2 = 3 * 4 / 2)
         assertEquals(6.0, triangulo.area(3, 4, 5), 1e-6);
     }
 
     @Test
     @DisplayName("Area do equilatero de lado 2")
     void testAreaEquilatero() {
-        // Area = sqrt(3) ~ 1.7320508...
         assertEquals(Math.sqrt(3), triangulo.area(2, 2, 2), 1e-6);
     }
 
@@ -77,7 +70,6 @@ class TrianguloMedidasTest {
     @Test
     @DisplayName("Area do isosceles 5-5-6")
     void testAreaIsosceles() {
-        // s = 8, area = sqrt(8*(8-5)*(8-5)*(8-6)) = sqrt(8*3*3*2) = sqrt(144) = 12
         assertEquals(12.0, triangulo.area(5, 5, 6), 1e-6);
     }
 
