@@ -1,8 +1,6 @@
 package com.mutacao.model;
 
-/**
- * Conta bancária simples.
- */
+
 public class Conta {
 
     private final String titular;
