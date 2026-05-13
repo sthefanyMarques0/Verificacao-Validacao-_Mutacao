@@ -6,9 +6,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-/**
- * Serviço de carrinho de compras.
- */
+
 public class CarrinhoService {
 
     private final List<Produto> itens = new ArrayList<>();
