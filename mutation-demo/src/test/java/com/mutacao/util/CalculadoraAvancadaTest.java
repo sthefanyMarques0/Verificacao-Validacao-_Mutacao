@@ -8,12 +8,7 @@ import org.junit.jupiter.params.provider.CsvSource;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-/**
- * Teste 2 – Funções avançadas da Calculadora: potência, paridade, máximo e mínimo.
- *
- * Mutantes esperados: inversão de condicionais (>= → >), alteração de
- * operadores relacionais, substituição de retorno booleano.
- */
+
 @DisplayName("Calculadora – Funções Avançadas")
 class CalculadoraAvancadaTest {
 
