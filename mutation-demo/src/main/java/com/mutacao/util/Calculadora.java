@@ -1,8 +1,6 @@
 package com.mutacao.util;
 
-/**
- * Operações aritméticas básicas.
- */
+
 public class Calculadora {
 
     public double somar(double a, double b) {
