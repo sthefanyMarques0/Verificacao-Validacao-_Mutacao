@@ -1,7 +1,10 @@
 # mutation-demo — Exemplo de Teste de Mutação com Pitest
 
 Projeto de demonstração para o Trabalho 1 de Verificação e Validação de Software (PUCRS).  
-Utiliza **JUnit 5** para testes e **Pitest** como ferramenta de teste de mutação.
+Alunos: Bianca Piassine, Maria Eduarda Melloni, Tarciso Mota, Sthafany Marques da Fonseca.
+Turma: 30
+materia: Verificação e validação de software.
+
 
 ---
 
@@ -24,18 +27,18 @@ mutation-demo/
     │       └── Senha.java            # Validação e força de senhas
     └── test/java/com/mutacao/
         ├── model/
-        │   ├── ProdutoTest.java                   # Teste 6
-        │   └── ContaTest.java                     # Teste 7
+        │   ├── ProdutoTest.java                   
+        │   └── ContaTest.java                     
         ├── service/
-        │   ├── CarrinhoServiceTest.java            # Teste 8
-        │   ├── NotaFiscalImpostosTest.java         # Teste 9
-        │   └── NotaFiscalMultaTest.java            # Teste 10
+        │   ├── CarrinhoServiceTest.java            
+        │   ├── NotaFiscalImpostosTest.java         
+        │   └── NotaFiscalMultaTest.java            
         └── util/
-            ├── CalculadoraOperacoesBasicasTest.java # Teste 1
-            ├── CalculadoraAvancadaTest.java         # Teste 2
-            ├── TrianguloClassificacaoTest.java      # Teste 3
-            ├── TrianguloMedidasTest.java            # Teste 4
-            └── SenhaValidacaoTest.java              # Teste 5
+            ├── CalculadoraOperacoesBasicasTest.java 
+            ├── CalculadoraAvancadaTest.java         
+            ├── TrianguloClassificacaoTest.java      
+            ├── TrianguloMedidasTest.java            
+            └── SenhaValidacaoTest.java              
 ```
 
 ---
