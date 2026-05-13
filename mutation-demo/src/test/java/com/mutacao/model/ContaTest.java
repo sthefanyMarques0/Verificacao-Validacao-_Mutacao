@@ -6,12 +6,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-/**
- * Teste 7 – Conta bancária: depósito, saque e transferência.
- *
- * Mutantes esperados: troca de += por -=, inversão de verificação de saldo
- * (> → >=), remoção da guarda de conta ativa.
- */
+
 @DisplayName("Conta – Operações Bancárias")
 class ContaTest {
 
