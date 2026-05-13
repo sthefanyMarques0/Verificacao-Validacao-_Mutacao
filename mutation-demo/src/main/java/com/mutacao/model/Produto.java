@@ -2,9 +2,7 @@ package com.mutacao.model;
 
 import java.util.Objects;
 
-/**
- * Representa um produto no estoque.
- */
+
 public class Produto {
 
     private final String nome;
