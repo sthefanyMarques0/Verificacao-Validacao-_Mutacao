@@ -1,13 +1,10 @@
 package com.mutacao.util;
 
-/**
- * Validação e força de senhas.
- */
+
 public class Senha {
 
     public enum Forca { FRACA, MEDIA, FORTE }
 
-    /** Mínimo 8 caracteres, ao menos 1 dígito e 1 letra. */
     public boolean ehValida(String senha) {
         if (senha == null || senha.length() < 8) return false;
         boolean temDigito = false;
