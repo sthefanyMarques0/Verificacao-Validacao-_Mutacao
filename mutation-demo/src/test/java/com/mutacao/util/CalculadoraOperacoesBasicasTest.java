@@ -6,12 +6,6 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-/**
- * Teste 1 – Operações básicas da Calculadora.
- *
- * Mutantes esperados: substituição de operadores aritméticos (+, -, *, /)
- * e de valores de retorno constantes.
- */
 @DisplayName("Calculadora – Operações Básicas")
 class CalculadoraOperacoesBasicasTest {
 
