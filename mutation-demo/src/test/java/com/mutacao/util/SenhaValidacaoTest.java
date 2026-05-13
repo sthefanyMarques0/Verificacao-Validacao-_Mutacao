@@ -9,12 +9,7 @@ import org.junit.jupiter.params.provider.ValueSource;
 import static com.mutacao.util.Senha.Forca.*;
 import static org.junit.jupiter.api.Assertions.*;
 
-/**
- * Teste 5 – Validação e força de senhas.
- *
- * Mutantes esperados: alteração do limiar de tamanho (< 8 → <= 8),
- * inversão de flags booleanas, alteração de limiar de pontos (>= 3 → > 3).
- */
+
 @DisplayName("Senha – Validação e Força")
 class SenhaValidacaoTest {
 
@@ -25,7 +20,6 @@ class SenhaValidacaoTest {
         senha = new Senha();
     }
 
-    // --- ehValida ---
 
     @Test
     @DisplayName("Senha nula é inválida")
@@ -48,16 +42,14 @@ class SenhaValidacaoTest {
     @Test
     @DisplayName("Senha sem dígito é inválida")
     void testSemDigitoInvalida() {
-        assertFalse(senha.ehValida("abcdefgh")); // 8 chars, sem dígito
-    }
+        assertFalse(senha.ehValida("abcdefgh")); 
 
     @Test
     @DisplayName("Senha sem letra é inválida")
     void testSemLetraInvalida() {
-        assertFalse(senha.ehValida("12345678")); // 8 chars, sem letra
+        assertFalse(senha.ehValida("12345678")); 
     }
 
-    // --- calcularForca ---
 
     @Test
     @DisplayName("Senha inválida retorna força FRACA")
@@ -68,20 +60,20 @@ class SenhaValidacaoTest {
     @Test
     @DisplayName("Senha apenas minúsculas + dígito retorna MEDIA")
     void testForcaMedia() {
-        // Tem minúscula, tem dígito mas não tem maiúscula, especial e < 12 chars
-        assertEquals(MEDIA, senha.calcularForca("abcde1fg")); // pontos = 1 (minúscula)
+        
+        assertEquals(MEDIA, senha.calcularForca("abcde1fg"));
     }
 
     @Test
     @DisplayName("Senha com maiúscula, minúscula e especial retorna FORTE")
     void testForcaForte() {
-        assertEquals(FORTE, senha.calcularForca("Abcde1@h")); // pontos: maiúscula, minúscula, especial = 3
+        assertEquals(FORTE, senha.calcularForca("Abcde1@h")); 
     }
 
     @Test
     @DisplayName("Senha com 12+ chars, maiúscula, minúscula e especial retorna FORTE")
     void testForcaForteLonga() {
-        assertEquals(FORTE, senha.calcularForca("Abcde1@hIjkL")); // pontos = 4
+        assertEquals(FORTE, senha.calcularForca("Abcde1@hIjkL")); 
     }
 
     @ParameterizedTest(name = "Senha válida: {0}")
