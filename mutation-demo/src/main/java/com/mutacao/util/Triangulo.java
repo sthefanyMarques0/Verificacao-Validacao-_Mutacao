@@ -1,8 +1,6 @@
 package com.mutacao.util;
 
-/**
- * Classifica e valida triângulos.
- */
+
 public class Triangulo {
 
     public enum Tipo { EQUILATERO, ISOSCELES, ESCALENO, INVALIDO }
